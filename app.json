@@ -3,6 +3,8 @@
     "name": "onspace-app",
     "slug": "onspace-app",
     "version": "1.0.0",
+    "owner": "techeditz8",
+    "projectId": "7259b94c-4103-4406-bfb7-e6a0929d698f",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
     "scheme": "onspaceapp",
