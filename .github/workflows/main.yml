@@ -30,7 +30,7 @@ jobs:
       - name: Build Android locally on GitHub
         run: |
           eas init --id 7259b94c-4103-4406-bfb7-e6a0929d698f --non-interactive --force
-          eas build --platform android --non-interactive --profile preview --local --output my-app.apk
+          eas build --platform android --non-interactive --profile preview --local --output my-app.apk --skip-dependency-install
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
