@@ -26,7 +26,7 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: 🔍 Debug Expo Config
-        run: npx expo config --dump
+        run: npx expo config
 
       - name: Build Android locally on GitHub
         run: eas build --platform android --non-interactive --profile preview --local --output my-app.apk
