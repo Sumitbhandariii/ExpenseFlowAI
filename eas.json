@@ -6,7 +6,8 @@
     "preview": {
       "android": {
         "buildType": "apk"
-      }
+      },
+      "nodeMethod": "npm"
     }
   }
 }
